@@ -6,7 +6,7 @@ import java.util.List;
 public class SaiuParaEntrega extends EstadoPedido {
     private static final SaiuParaEntrega instancia = new SaiuParaEntrega();
 
-    private SaiuParaEntrega() {}
+    public SaiuParaEntrega() {}
 
     public static SaiuParaEntrega getInstancia() {
         return instancia;

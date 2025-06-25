@@ -23,4 +23,8 @@ public abstract class EstadoPedido {
     }
 
     public abstract String getNome();
+
+    public String getStatus() {
+        return "";
+    }
 }

@@ -6,7 +6,7 @@ import java.util.List;
 public class EmPreparo extends EstadoPedido {
     private static final EmPreparo instancia = new EmPreparo();
 
-    private EmPreparo() {}
+    public EmPreparo() {}
 
     public static EmPreparo getInstancia() {
         return instancia;

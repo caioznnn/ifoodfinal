@@ -6,7 +6,7 @@ import java.util.List;
 public class Recebido extends EstadoPedido {
     private static final Recebido instancia = new Recebido();
 
-    private Recebido() {}
+    public Recebido() {}
 
     public static Recebido getInstancia() {
         return instancia;

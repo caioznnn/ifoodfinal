@@ -3,7 +3,7 @@ package estados;
 public class Entregue extends EstadoPedido {
     private static final Entregue instancia = new Entregue();
 
-    private Entregue() {}
+    public Entregue() {}
 
     public static Entregue getInstancia() {
         return instancia;
